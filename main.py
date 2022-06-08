@@ -113,8 +113,6 @@ def go(config: DictConfig):
                 }
             )
 
-            pass
-
         if "test_regression_model" in active_steps:
             # test regression model
             _ = mlflow.run(
